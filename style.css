@@ -33,7 +33,8 @@ body {
 /* BANNER */
 .banner {
   height: 400px;
-  background: linear-gradient(to right, #3e6b48, #a8d5ba);
+  background: url('img/Banner.jpg') no-repeat center center;
+  background-size: cover;
   color: white;
   display: flex;
   flex-direction: column;
