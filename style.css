@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: Arial;
-  width: 800px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
   background: #f5f5f5;
 }
 
@@ -35,7 +35,7 @@ body {
 
 /* BANNER */
 .banner {
-  height: 400px;
+  min-height: 100vh;
   background: url('img/Banner.jpg') no-repeat center center;
   background-size: cover;
   color: white;
@@ -43,6 +43,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 20px;
 }
 
 .banner-logo {
@@ -54,14 +55,14 @@ body {
 .section {
   padding: 40px;
   text-align: center;
-  min-height: 300px;
+  min-height: 100vh;
 }
 
 /* PRODUCT */
 .products {
   background: #e8f5e8;
   padding: 40px;
-  min-height: 500px;
+  min-height: 100vh;
 }
 
 .product-grid {
