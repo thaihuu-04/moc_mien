@@ -19,6 +19,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
   background: #3e6b48;
   padding: 10px 20px;
   position: fixed;
@@ -40,6 +41,7 @@ html {
 .menu-list {
   display: flex;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .search-box {
@@ -47,13 +49,16 @@ html {
   align-items: center;
   margin-top: 10px;
   margin-left: auto;
+  min-width: 180px;
+  max-width: 290px;
+  width: 100%;
 }
 
 .search-box input {
   border: none;
   border-radius: 25px 0 0 25px;
   padding: 8px 14px;
-  width: 240px;
+  width: 100%;
   outline: none;
   font-size: 14px;
 }
@@ -63,9 +68,10 @@ html {
   border-radius: 0 25px 25px 0;
   background: #ffb74d;
   color: #2d4f36;
-  padding: 9px 16px;
+  padding: 9px 12px;
   cursor: pointer;
   font-weight: bold;
+  font-size: 18px;
 }
 
 .search-box button:hover {
@@ -119,12 +125,13 @@ html {
 .section {
   padding: 40px;
   text-align: center;
+    gap: 10px;
   height: 100vh;
 }
 
 /* PRODUCT */
 .products {
-  background: #e8f5e8;
+    margin-left: 0;
   padding: 40px;
   height: 100vh;
 }
